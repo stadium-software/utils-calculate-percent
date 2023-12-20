@@ -40,3 +40,4 @@ return ((value / total) * 100).toFixed(precision);
    1. Total: Float
    2. Value: Float
    3. Precision: Integer (default: 2)
+3. Result: The script returns the percentage as a float
