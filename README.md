@@ -17,7 +17,7 @@ A script to calculate percentages to specific decimal places
 4. Drag a *JavaScript* action into the script
 5. Add the Javascript below into the JavaScript code property
 ```javascript
-/* Stadium Script Version 1.0*/
+/* Stadium Script Version 1.0 https://github.com/stadium-software/utils-calculate-percent */
 let value = ~.Parameters.Input.Value;
 let total = ~.Parameters.Input.Total;
 if (isNaN(parseFloat(value)) || isNaN(parseFloat(total))) {
